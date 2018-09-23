@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Version>1.0.2.0</Version>
+    <Authors>Vishal Shirodkar</Authors>
+    <Company />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Configurations>Debug;Release;Production Release</Configurations>
+    <PackageId>ITTraining.Infrastructure</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ITTrainingDBContext" Version="1.0.0.1" />
+  </ItemGroup>
+
+</Project>
